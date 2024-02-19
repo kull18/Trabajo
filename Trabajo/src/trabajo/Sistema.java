@@ -208,18 +208,19 @@ public class Sistema {
     public static void getarqueo() {
     	 int cost = 0;  
 
-    	 ArrayList <Arqueo> arque; 
-    	 arque = key2.retunarqueo(); 
-         ArrayList <Compra> compras = key1.compra(); 
-        Compra compra = new Compra(null, null, cost); 
+    	 ArrayList <Arqueo> arque = key2.retunarqueo(); 
+   	  
+         
+		ArrayList <Compra> compras = key1.compra(); 
+      
+		Compra compra = new Compra(null, null, cost); 
         Arqueo cierre = new Arqueo(); 
           
          for(int i=0;i<compras.size();i++) {
              cierre.add(compras.get(cost));
               arque.add(cierre);
               
-             }
-         
+             }         
     	for(int i=0;i<compras.size();i++) {
     		 
 			System.out.println(arque.get(i));

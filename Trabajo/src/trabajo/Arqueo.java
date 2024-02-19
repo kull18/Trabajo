@@ -41,9 +41,6 @@ public class Arqueo {
 		
 	}
 	
-	public void add(Monto monto) {
-		
-	}
      
 	
       
